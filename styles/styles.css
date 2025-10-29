@@ -1,0 +1,22 @@
+/* Estilo personalizado para a célula marcada */
+.marked {
+  background-color: #facc15; /* Amarelo (Tailwind yellow-400) */
+  color: #1f2937; /* Cinza escuro (Tailwind gray-800) */
+}
+/* Melhora a legibilidade em telas pequenas */
+@media (max-width: 640px) {
+  body {
+    padding: 0.5rem;
+  }
+  .container {
+    padding: 1rem;
+  }
+  th,
+  td {
+    padding: 0.5rem;
+    font-size: 0.875rem; /* Tamanho de fonte menor */
+  }
+  h1 {
+    font-size: 1.5rem; /* Título menor */
+  }
+}
